@@ -41,15 +41,35 @@ public class Operate {
 //        else if(num1>num2||num2>num3)
 //            System.out.println("no");
         //ternary
-        int x=(num1>num2)?12:4;
-        System.out.println(x);
-
-        //assignment
-        int c =2;
-        c+=2;//c=c+2
-        c-=2;
+//        int x=(num1>num2)?12:4;
+//        System.out.println(x);
+//
+//        //assignment
+//        int c =2;
+//        c+=2;//c=c+2
+//        c-=2;
 
         //===
+
+        //bitwise 
+        //bitwise AND & 12=  1100  0011
+        int x= num1 & num2;
+        System.out.println(x) ;
+        //bitwise OR ^
+        x = num1 ^ num2;
+        System.out.println(x);
+        //bitwise |
+        x = num1 | num2;
+        System.out.println(x);
+        //signed shift right
+        x= a>>2;
+        System.out.println(x);
+        //unsigned shift right
+        x= a>>>2;
+        System.out.println(x);
+
+        // signed shift left <<
+
     }
 
 }
