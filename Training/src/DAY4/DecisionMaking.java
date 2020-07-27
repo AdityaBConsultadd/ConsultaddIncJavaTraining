@@ -42,20 +42,34 @@ public class DecisionMaking {
 //        case x :
         // }
 
-        char ch = in.nextLine().charAt(0);
-        int x1 = in.nextInt();
-        int x2 = in.nextInt();
-        int result=0;
-        switch (ch){
-            case '+' : result=x1+x2;
+//        char ch = in.nextLine().charAt(0);
+//        int x1 = in.nextInt();
+//        int x2 = in.nextInt();
+//        int result=0;
+//        switch (ch){
+//            case '+' : result=x1+x2;
+//                break;
+//            case '-' : result=x1-x2;
+//                break;
+//            default:
+//                System.out.println("invalid input");
+//                break;
+//        }
+//        System.out.println(result);
+
+        int a= in.nextInt();
+        while(a<10){
+            if(a>5){
                 break;
-            case '-' : result=x1-x2;
-                break;
-            default:
-                System.out.println("invalid input");
-                break;
+            }else if(a==6){
+                continue;
+            }else {
+                a++;
+                 System.out.println(a);
+                 if(a>10)
+                 continue;
+            }
         }
-        System.out.println(result);
 
 
 
