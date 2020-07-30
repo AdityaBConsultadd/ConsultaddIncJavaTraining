@@ -54,13 +54,12 @@ class Manager extends Employee{
 
 public class Inherit {
     public static void main(String[] args) {
-        Programmer programmer = new Programmer();
+//        Programmer programmer = new Programmer();
         Manager manager = new Manager();
-        Employee eemployee = new Manager();
+//        Employee eemployee = new Manager();
         Employee employee = new Employee(7);
-        manager.display(8);
-
-
+//        manager.display(8);
+        ((Manager)employee).show();
 //        manager.name= "Riyaz";
 //        manager.teamSize=10;
 //        manager.exp=5;
